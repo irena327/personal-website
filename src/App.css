@@ -1,38 +1,137 @@
+/* @import "~antd/dist/antd.css"; */
+
 .App {
+  text-align: center;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #efefef;
+  background-size: cover;
+  color: #000000;
+}
+
+.ant-btn-primary {
+  background-color: #b3c8d3;
+}
+
+.ant-btn-primary:hover {
+  background-color: #c9dae4 !important;
+}
+
+.ant-btn-default:hover {
+  border-color: #c9dae4 !important;
+}
+
+.site-layout-content {
+  min-height: 280px;
+  background: #efefef;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.Intro {
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 3%;
+  font-family: 'EB Garamond', serif;
+}
+
+.IntroBody {
+  text-align: center;
+  color: #000000;
+  font-weight: 400;
+  font-size: 18px;
+  padding-bottom: 2%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.Body {
+  padding-bottom: 3%;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #b3c8d3;
+}
+
+.image {
+  padding: 20px;
+  display: block;
+  margin-right: auto;
+  width: 80%;  
+  height: auto; 
+}
+
+.icon {
+  display: block;
+  width: 40px;  
+  height: auto;
+  padding-right: 15px;
+}
+
+.icon:hover {
+  display: block;
+  width: 40px;  
+  height: auto;
+  padding-right: 15px;
+  color: #b3c8d3;
+}
+
+.images {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+.Header {
+  text-align: center;
+  color: #000000;
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 15%;
+  font-family: 'EB Garamond', serif;
+}
+
+.row {
+  margin-bottom: 3%;
+}
+
+.text {
+  color: white;
+  font-size: 32px;
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b3c8d3;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container:hover .overlay {
+  opacity: 1;
 }
