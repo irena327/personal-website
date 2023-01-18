@@ -17,14 +17,15 @@ const Router = () => {
    <Switch>
       <Layout>
          <Switch>
-         <Route exact path='/projects' component={Projects} />
-         <Route exact path='/portfolio/painting' component={Painting} />
-         <Route exact path='/portfolio/drawing' component={Drawing} />
-         <Route exact path='/portfolio/mixedmedia' component={MixedMedia} />
-         <Route exact path='/portfolio/design' component={Design} />
-         <Route exact path='/baking' component={Baking} />
-         <Route exact path='/home' component={Home} />
-         <Route component={NotFound} />
+            <Route exact path='/' component={Home} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/portfolio/painting' component={Painting} />
+            <Route exact path='/portfolio/drawing' component={Drawing} />
+            <Route exact path='/portfolio/mixedmedia' component={MixedMedia} />
+            <Route exact path='/portfolio/design' component={Design} />
+            <Route exact path='/baking' component={Baking} />
+            <Route exact path='/home' component={Home} />
+            <Route component={NotFound} />
          </Switch>
       </Layout>
    </Switch>
