@@ -33,7 +33,7 @@ function Home() {
                     </Row>
                 </Col>
                 <Col span={8} offset={1}>
-                    <img src={headshot} alt="Headshot" className="image"/>
+                    <img src={headshot} alt="Headshot" className="image" style={{borderRadius: "50px"}}/>
                 </Col>
             </Row>
         </div>

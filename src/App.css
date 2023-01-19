@@ -67,10 +67,9 @@ a:hover {
 .image {
   padding: 20px;
   display: block;
-  border-radius: 10px;
   margin-right: auto;
   width: 80%;  
-  height: auto; 
+  height: auto;
 }
 
 .icon {

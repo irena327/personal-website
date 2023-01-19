@@ -11,7 +11,7 @@ const Layout = ({children}) => {
          <Header style={{ backgroundColor: '#ebe4de', padding: '0px 50px' }}>
             <NavigationBar />
          </Header>
-         <Content style={{ backgroundColor: '#ffffff', padding: '50px 50px' }}> 
+         <Content style={{ backgroundColor: '#ffffff', padding: '10px 50px' }}> 
             <div className="site-layout-content">
                { children }
             </div> 
