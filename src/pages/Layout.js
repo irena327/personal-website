@@ -8,15 +8,15 @@ const { Header, Content, Footer } = Format;
 const Layout = ({children}) => {
    return (
       <Format>
-         <Header style={{ backgroundColor: '#b3c8d3', padding: '0px 50px' }}>
+         <Header style={{ backgroundColor: '#ebe4de', padding: '0px 50px' }}>
             <NavigationBar />
          </Header>
-         <Content style={{ backgroundColor: '#efefef', padding: '50px 50px' }}> 
+         <Content style={{ backgroundColor: '#ffffff', padding: '50px 50px' }}> 
             <div className="site-layout-content">
                { children }
             </div> 
          </Content>
-         <Footer style={{ backgroundColor: '#efefef', textAlign: 'center', fontWeight: 'lighter', fontName: "Quicksand" }}>
+         <Footer style={{ backgroundColor: '#ffffff', textAlign: 'center', fontWeight: 'lighter', fontName: "Khula" }}>
             © Irena Lee 2023
          </Footer>
       </Format>

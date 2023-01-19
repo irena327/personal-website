@@ -9,16 +9,25 @@
  }
  
  .ant-layout{
-   background: #efefef;
+   background: #ffffff;
  }
 
 .style {
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'EB Garamond', serif;
-  color: #ffffff;
-  background-color: #b3c8d3;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Khula', sans-serif;
+  color: #131310;
+  background-color: #ebe4de;
   width: calc(100% - 50px);
+  /* padding-top: 3px; */
   float: left;
+}
+
+.Name {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'Cormorant Garamond', serif;
+  color: #131310;
+  background-color: #ebe4de;
   padding: 0 20px;
 }

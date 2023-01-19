@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from 'antd';
-import daisy from "./../images/daisy.png";
 import design1 from "./../images/design1.JPG";
 import design2 from "./../images/design2.JPG";
 import design3 from "./../images/design3.JPG";
@@ -13,26 +12,10 @@ function Design() {
     return (
         <div>
             <Row justify="center" align="middle">
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
-                </Col>
                 <Col span={6}>
                     <h1 className="Header">
                         Design
                     </h1>
-                </Col>
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
                 </Col>
             </Row>
             <Row justify="center" align="middle" className="row">

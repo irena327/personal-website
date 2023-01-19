@@ -6,48 +6,51 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  font-family: 'Quicksand', sans-serif;
-  background-color: #efefef;
+  font-weight: 400;
+  font-family: 'Khula', sans-serif;
+  background-color: #ffffff;
   background-size: cover;
-  color: #000000;
+  color: #131310;
 }
 
 .ant-btn-primary {
-  background-color: #b3c8d3;
+  background-color: #989a94;
 }
 
 .ant-btn-primary:hover {
-  background-color: #c9dae4 !important;
+  background-color: #e0cbc4 !important;
 }
 
 .ant-btn-default:hover {
-  border-color: #c9dae4 !important;
+  border-color: #e0cbc4 !important;
 }
 
 .site-layout-content {
   min-height: 280px;
-  background: #efefef;
+  background: #ffffff;
   font-size: 22px;
   font-weight: 400;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Khula', sans-serif;
 }
 
-.Intro {
+.Header {
   text-align: center;
-  color: #000000;
+  color: #131310;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 45px;
   padding-bottom: 3%;
-  font-family: 'EB Garamond', serif;
+  text-decoration: underline;
+  text-decoration-color: #e0cbc4;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .IntroBody {
   text-align: center;
-  color: #000000;
+  color: #131310;
   font-weight: 400;
   font-size: 18px;
   padding-bottom: 2%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Khula', sans-serif;
 }
 
 .Body {
@@ -55,11 +58,11 @@
 }
 
 a {
-  color: #000000;
+  color: #131310;
 }
 
 a:hover {
-  color: #b3c8d3;
+  color: #e0cbc4;
 }
 
 .image {
@@ -82,7 +85,7 @@ a:hover {
   width: 40px;  
   height: auto;
   padding-right: 15px;
-  color: #b3c8d3;
+  color: #e0cbc4;
 }
 
 .images {
@@ -93,15 +96,6 @@ a:hover {
   width: 100%;
 }
 
-.Header {
-  text-align: center;
-  color: #000000;
-  font-weight: 700;
-  font-size: 48px;
-  margin-bottom: 15%;
-  font-family: 'EB Garamond', serif;
-}
-
 .row {
   margin-bottom: 3%;
 }
@@ -109,7 +103,8 @@ a:hover {
 .text {
   color: white;
   font-size: 32px;
-  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-family: 'Khula', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -129,7 +124,7 @@ a:hover {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #b3c8d3;
+  background-color: #e0cbc4;
 }
 
 .container:hover .overlay {

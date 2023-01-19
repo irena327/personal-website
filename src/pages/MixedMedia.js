@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from 'antd';
-import daisy from "./../images/daisy.png";
 import mixedmedia1 from "./../images/mixedmedia1.JPG";
 import mixedmedia2 from "./../images/mixedmedia2.JPG";
 import mixedmedia3 from "./../images/mixedmedia3.JPG";
@@ -10,26 +9,10 @@ function MixedMedia() {
     return (
         <div>
             <Row justify="center" align="middle">
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
-                </Col>
                 <Col span={6}>
                     <h1 className="Header">
                         Mixed Media
                     </h1>
-                </Col>
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
                 </Col>
             </Row>
             <Row justify="center" align="middle" className="row">

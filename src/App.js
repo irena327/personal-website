@@ -13,8 +13,8 @@ function App() {
       <ConfigProvider
           theme={{
             token: {
-              colorPrimary: '#c9dae4',
-              fontFamily: 'Quicksand',
+              colorPrimary: '#F2E7D5',
+              fontFamily: 'Khula',
               fontSize: '14px',
             },
           }}

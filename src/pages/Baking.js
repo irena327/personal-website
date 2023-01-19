@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row } from 'antd';
-import daisy from "./../images/daisy.png";
 import ChocolateStrawberry from "./../images/cakes/1.jpg";
 import ChocolateStrawberry2 from "./../images/cakes/2.jpg";
 import StrawberryMango from "./../images/cakes/3.jpg";
@@ -29,26 +28,10 @@ function Baking() {
     return (
         <div>
             <Row justify="center" align="middle">
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
-                </Col>
                 <Col span={6}>
                     <h1 className="Header">
                         The BakerLee
                     </h1>
-                </Col>
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
                 </Col>
             </Row>
             <Row justify="center" align="middle" className="row">

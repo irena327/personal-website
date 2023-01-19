@@ -13,8 +13,8 @@ function Home() {
             <Row justify="center" align="middle">
                 <Col span={8}>
                     <Row justify="center" align="middle">
-                        <div className="Intro">
-                            Irena Lee
+                        <div className="Header">
+                            About Me
                         </div>
                     </Row>
                     <Row justify="center" align="middle" className="Body">

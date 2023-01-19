@@ -1,37 +1,19 @@
 import React from "react";
 import { Col, Row } from 'antd';
-import daisy from "./../images/daisy.png";
 import painting1 from "./../images/painting1.JPG";
 import painting2 from "./../images/painting2.JPG";
 import painting3 from "./../images/painting3.JPG";
 import painting4 from "./../images/painting4.JPG";
-import painting5 from "./../images/painting5.JPG";
 import "./../App.css";
 
 function Painting() {
     return (
         <div>
             <Row justify="center" align="middle">
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
-                </Col>
                 <Col span={6}>
                     <h1 className="Header">
                         Painting
                     </h1>
-                </Col>
-                <Col span={2}>
-                    <img
-                        src={daisy}
-                        alt="logo"
-                        width="40"
-                        height="40"
-                    />
                 </Col>
             </Row>
             <Row justify="center" align="middle" className="row">

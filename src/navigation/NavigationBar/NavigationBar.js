@@ -9,14 +9,9 @@ class NavigationBar extends Component {
   render() {
     return (
    <Menu mode="horizontal" className="style">
-        <Menu.Item key="logo">
-            <img
-               src={logo}
-               alt="logo"
-               width="30"
-               height="30"
-            />
-        </Menu.Item>
+        <div className="Name">
+            Irena Lee
+        </div>
         <Menu.Item key="home">
           <a style={{ textDecoration: "none" }} href="/home">About</a>
         </Menu.Item>
