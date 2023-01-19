@@ -43,6 +43,33 @@ function Projects() {
                     </Row>
                 </Col>
             </Row>
+            <Row justify="center" align="middle" className="Pink" style={{ marginTop: "3%" }}>
+                <Col>
+                    <Row justify="center" align="middle">
+                        <Col span={24}>
+                            <h2>
+                                Personal Website (a.k.a this)
+                            </h2>
+                            <p style={{ fontSize: "18px" }}>
+                                A web app built in React and CSS with information about my projects, my interests, and me.
+                            </p>
+                        </Col>
+                    </Row>
+                    <Row justify="center" align="middle">
+                        <img src={SignIn} style={{maxWidth: "80%", borderRadius: "10px", marginRight: "40px"}}/>
+                        <img src={ItemInput} style={{maxWidth: "80%", borderRadius: "10px"}}/>
+                    </Row>
+                    <Row justify="center" align="middle">
+                        <Button type="primary"
+                            size="medium"
+                            className="Home" 
+                            style={{ padding: 5, marginTop: "25px" }}
+                            href="https://github.com/irena327/personal-website" target="_blank" rel="noreferrer">
+                                View full repository on GitHub
+                        </Button>
+                    </Row>
+                </Col>
+            </Row>
       </div>
     );
 }
