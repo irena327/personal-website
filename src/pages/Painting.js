@@ -1,9 +1,7 @@
 import React from "react";
 import { Col, Row } from 'antd';
-import Slider from 'react-animated-slider';
-import 'react-animated-slider/build/horizontal.css';
-import 'react-slideshow-image/dist/styles.css'
-import { Slide } from 'react-slideshow-image';
+// import Slider from 'react-animated-slider';
+// import 'react-animated-slider/build/horizontal.css';
 import painting1 from "./../images/painting1.JPG";
 import painting2 from "./../images/painting2.JPG";
 import painting3 from "./../images/painting3.JPG";
