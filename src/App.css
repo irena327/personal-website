@@ -37,8 +37,7 @@
   text-align: center;
   color: #131310;
   font-weight: 700;
-  font-size: 45px;
-  padding-bottom: 3%;
+  font-size: 3vw;
   text-decoration: underline;
   text-decoration-color: #e0cbc4;
   font-family: 'Cormorant Garamond', serif;
@@ -68,6 +67,7 @@ a:hover {
 .image {
   padding: 20px;
   display: block;
+  border-radius: 10px;
   margin-right: auto;
   width: 80%;  
   height: auto; 
@@ -75,14 +75,15 @@ a:hover {
 
 .icon {
   display: block;
-  width: 40px;  
+  width: 50px;  
   height: auto;
   padding-right: 15px;
+  color: #989a94;
 }
 
 .icon:hover {
   display: block;
-  width: 40px;  
+  width: 50px;  
   height: auto;
   padding-right: 15px;
   color: #e0cbc4;
@@ -91,6 +92,7 @@ a:hover {
 .images {
   display: block;
   justify-content: center;
+  border-radius: 10px;
   align-items: center;
   margin: auto;
   width: 100%;
@@ -102,7 +104,7 @@ a:hover {
 
 .text {
   color: white;
-  font-size: 32px;
+  font-size: 3vw;
   font-weight: 400;
   font-family: 'Khula', sans-serif;
   position: absolute;
@@ -128,5 +130,13 @@ a:hover {
 }
 
 .container:hover .overlay {
+  border-radius: 10px;
   opacity: 1;
+}
+
+.Pink {
+  background-color: #ebe4de;
+  border-radius: 15px;
+  padding-bottom: 2%;
+  min-height: 500px;
 }

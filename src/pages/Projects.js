@@ -1,5 +1,9 @@
 import React from "react";
 import { Col, Row } from 'antd';
+import SignIn from "./../images/budget/signin.gif";
+import ItemInput from "./../images/budget/iteminput.gif";
+import { Button } from "antd";
+import Home from "./../images/budget/Home.png";
 import "./../App.css";
 
 function Projects() {
@@ -10,6 +14,33 @@ function Projects() {
                     <h1 className="Header">
                         Projects
                     </h1>
+                </Col>
+            </Row>
+            <Row justify="center" align="middle" className="Pink">
+                <Col>
+                    <Row justify="center" align="middle">
+                        <Col span={24}>
+                            <h2>
+                                Budget Tracker
+                            </h2>
+                            <p style={{ fontSize: "18px" }}>
+                                A web app built in React, CSS, and Firebase for tracking expenses and setting budgets based on categories.
+                            </p>
+                        </Col>
+                    </Row>
+                    <Row justify="center" align="middle">
+                        <img src={SignIn} style={{maxWidth: "80%", borderRadius: "10px", marginRight: "40px"}}/>
+                        <img src={ItemInput} style={{maxWidth: "80%", borderRadius: "10px"}}/>
+                    </Row>
+                    <Row justify="center" align="middle">
+                        <Button type="primary"
+                            size="medium"
+                            className="Home" 
+                            style={{ padding: 5, marginTop: "25px" }}
+                            href="https://github.com/irena327/budgeting-app" target="_blank" rel="noreferrer">
+                                View full repository on GitHub
+                        </Button>
+                    </Row>
                 </Col>
             </Row>
       </div>

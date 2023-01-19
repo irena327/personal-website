@@ -8,8 +8,9 @@ function NotFound() {
             Still in progress :)
             <p>
                <Button type="primary"
-                size="large"
+                size="medium"
                 className="Home" 
+                style={{ padding: 5 }}
                 href={"/home"}>
                     Go Home
                 </Button>

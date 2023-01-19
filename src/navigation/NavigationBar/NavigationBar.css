@@ -4,10 +4,6 @@
    flex-direction: row;
  }
  
- .content {
-    padding-top: 30px;
- }
- 
  .ant-layout{
    background: #ffffff;
  }
