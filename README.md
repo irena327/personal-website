@@ -6,6 +6,6 @@ Started January 17, 2023
 - [x] Projects Page
 - [x] Art Page
 - [x] Baking Page
-- [] Inquiry form?
-- [] Rotating pictures
+- [ ] Inquiry form?
+- [ ] Rotating pictures
 

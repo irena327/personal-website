@@ -3,7 +3,8 @@ import { Col, Row } from 'antd';
 import SignIn from "./../images/budget/signin.gif";
 import ItemInput from "./../images/budget/iteminput.gif";
 import { Button } from "antd";
-import Home from "./../images/budget/Home.png";
+import About from "./../images/About.png";
+import BakingPage from "./../images/BakingPage.png";
 import "./../App.css";
 
 function Projects() {
@@ -56,14 +57,16 @@ function Projects() {
                         </Col>
                     </Row>
                     <Row justify="center" align="middle">
-                        <img src={SignIn} style={{maxWidth: "80%", borderRadius: "10px", marginRight: "40px"}}/>
-                        <img src={ItemInput} style={{maxWidth: "80%", borderRadius: "10px"}}/>
+                        <Col span={24}>
+                            <img src={About} style={{maxWidth: "80%", width: "40vw", borderRadius: "10px", marginRight: "40px"}}/>
+                            <img src={BakingPage} style={{maxWidth: "80%", width: "40vw", borderRadius: "10px"}}/>
+                        </Col>
                     </Row>
                     <Row justify="center" align="middle">
                         <Button type="primary"
                             size="medium"
                             className="Home" 
-                            style={{ padding: 5, marginTop: "25px" }}
+                            style={{ padding: 5 }}
                             href="https://github.com/irena327/personal-website" target="_blank" rel="noreferrer">
                                 View full repository on GitHub
                         </Button>
