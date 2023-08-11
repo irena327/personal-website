@@ -19,10 +19,10 @@ function Home() {
                     </Row>
                     <Row justify="center" align="middle" className="Body">
                         <div className="IntroBody">
-                            Hi, welcome to my personal website! I am currently finishing my senior year at <a href="https://www.utexas.edu/" target="_blank" rel="noreferrer"><strong>The University of Texas at Austin</strong></a> with degrees in Computer Science and Economics and a minor in Applied Statistics. This fall, I plan to join <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><strong>Pinterest</strong></a> as a software engineer. 
+                            Hi, welcome to my personal website! I recently graduated from <a href="https://www.utexas.edu/" target="_blank" rel="noreferrer"><strong>The University of Texas at Austin</strong></a> with degrees in Computer Science and Economics and a minor in Applied Statistics. Currently, I am a software engineer at <a href="https://www.pinterest.com/" target="_blank" rel="noreferrer"><strong>Pinterest</strong></a>. 
                         </div>
                         <div className="IntroBody">
-                           Outside of school, I enjoy baking (and sometimes selling) layer cakes. I also love travelling, trying new foods, crocheting, painting, and playing volleyball recreationally.
+                           Outside of school, I enjoy baking (and sometimes selling) layer cakes. I also love travelling, trying new foods, crocheting, painting, and playing pickleball recreationally.
                         </div>
                     </Row>
                     <Row justify="center" align="middle">
